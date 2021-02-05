@@ -3,6 +3,7 @@ import Banner from "./Banner";
 import "./Homescreen.css";
 import Nav from "./Nav";
 import requests from "./Requests";
+import Row from "./Row";
 
 function Homescreen() {
   return (
@@ -11,7 +12,7 @@ function Homescreen() {
       <Banner />
       <Row
         title="NETFLIX ORIGINALS"
-        fetchURL={requests.fetchNetflixOriginals}
+        fetchUrl={requests.fetchNetflixOriginals}
         isLargeRow
       />
       <Row title="Trending Now" fetchUrl={requests.fetchTrending} />
