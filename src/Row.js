@@ -72,7 +72,7 @@ function Row({ title, fetchUrl, isLargeRow }) {
             />
             <div className="list__itemInfo">
               <h5 className="list__itemTitle">
-                {movie.title || movie.original_title}
+                {movie.name || movie.original_title}
                 <span className="list__itemYear">
                   ({getReleaseYear(movie.release_date || movie.first_air_date)})
                 </span>

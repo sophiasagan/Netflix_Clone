@@ -101,8 +101,9 @@ function PlansScreen() {
             } plansScreen__plan`}
           >
             <div className="plansScreen__info">
-              <h5>{productData.name}</h5>
-              <h6>{productData.description}</h6>
+              <h5 className="product__name">{productData.name}</h5>
+              <h6 className="product__desc">{productData.description}</h6>
+              <h3 className="product__price">${productData.price}</h3>
             </div>
 
             <button

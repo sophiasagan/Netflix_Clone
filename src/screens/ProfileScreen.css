@@ -30,6 +30,8 @@
   }
   
   .profileScreen__signOut {
+    font-family: "Mulish";
+    font-weight: 700;
     padding: 10px 20px;
     font-size: 1rem;
     margin-top: 5%;
@@ -39,6 +41,7 @@
     outline-width: 0;
     border: none;
     cursor: pointer;
+    border-radius: 0.5rem;
   }
   
   .profileScreen__plans {
