@@ -1,69 +1,88 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
+# Netflix Clone
 
-## Available Scripts
+- **Netflix Clone using TMDb API made with React, Redux, and Firebase w/ Firestore integrated Stripe subscription**
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## Quick Links
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+[Demo](#demo)
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+- [Live Site](#live-site-demo)
+- [Video](#video-demo)
 
-### `npm test`
+[Tech Stack](#tech-stack)
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+[About](#Implementation-Highlights)
 
-### `npm run build`
+- [Plans for Expansion](#future-plans-for-expansion)
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+[Author](#author)
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+[License](#license)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## Demo
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### Live Site Demo
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Demo: [Link](https://netflix-clone-2418e.web.app)
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### Video Demo
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+![demogif](netflix.gif)
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Tech Stack
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- [React](https://github.com/facebook/react) 
+  - Create-react-app with highly complex frontend structure
+- [Redux](https://redux.js.org/) 
+  - State management and axios for asynchronous api calls
+- [Firebase](https://firebase.google.com/) 
+  - Backend and database with firestore for users and products
+- [TMDB API](https://www.themoviedb.org/?language=en-US)
+  - Movie service API
+- [React Router](https://reacttraining.com/react-router/web/guides/quick-start) 
+  - Complex and dynamic route generation 
+- [Stripe](https://stripe.com/)
+  - For payment and subscription processing
 
-### Code Splitting
+---
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+## Implementation Highlights
 
-### Analyzing the Bundle Size
+Netflix clone made with React, Redux & Firebase which uses axios to asynchronously fetch movie data of over 30 thousand movies from TMDb api. Features include user signup and signin, in app trailer playing, dynamically generated movie and tv show pages and an interactive UI replicated from the original netflix app.
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+### User Stories
 
-### Making a Progressive Web App
+- Users can safely sign up and sign in, google sign in enabled with firebase
+- Details include imdb rating, cast info, trailer links
+- Original netflix UI replicated with highly organized and advanced sass styling
+- Collections of popular movies and tvshows by genre
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+### Current Plans for Expansion
 
-### Advanced Configuration
+- Movie and TV Pages dynamically generated for every single movie
+- Add to list feature active throughout the app
+- Carousel for top banner
+- A searchbar to search through TMDB database of over 30000 movies
+- Add user profile data, profile picture and personal data setup
+- Add paginations and setup category sorting
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
 
-### Deployment
+---
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+## Author
 
-### `npm run build` fails to minify
+- Sophia Jung
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
-# Netflix_Clone
+---
+
+## License
+
+- Full credit for API data to TMDb API.
+
+---
