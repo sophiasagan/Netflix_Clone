@@ -31,7 +31,7 @@ Demo: [Link](https://netflix-clone-2418e.web.app)
 
 ### Video Demo
 
-<!-- ![demogif](netflix.gif) -->
+![demogif](netflix_compressed.gif)
 
 ---
 
