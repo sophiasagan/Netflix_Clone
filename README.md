@@ -85,4 +85,8 @@ Netflix clone made with React, Redux & Firebase which uses axios to asynchronous
 
 - Full credit for API data to TMDb API.
 
+<<<<<<< HEAD
 ---
+=======
+---
+>>>>>>> 223fee98768220c804c0184f585e2783c2d62c00
